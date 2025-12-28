@@ -1,0 +1,11 @@
+﻿{
+	"name":	"Cultural and Colonial Tweaks mod",
+	"id":	"culture_e_colonie",
+	"version":	"0.0",
+	"supported_game_version":	"1.0.*",
+	"short_description":	"This is a more meant to be a more basic mod to modify culture and religous conversion and edit some of Paradox's questional decisions in cultural make ups, exclusions, and the low populations in the Americas and Sub-Saharan Africa.\nIn the future the plan is to have a system for culural merging for groups like French, German, Polish, and others later in the game.",
+	"tags":	["Balance", "Culture & Art", "Events", "Fixes", "Gameplay", "Government and Estates", "Historical", "Religion"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}
