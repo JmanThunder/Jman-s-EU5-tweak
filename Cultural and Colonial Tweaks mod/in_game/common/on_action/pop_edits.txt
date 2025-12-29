@@ -1,0 +1,62 @@
+﻿on_game_start = {
+	effect = {
+		every_country = {
+			limit = {
+				OR = {	#heavy or condition
+					tag = MAL
+					tag = BBK
+					tag = BMR
+					tag = DFN
+					tag = GHA
+					tag = JOL
+					tag = KAB
+					tag = KBR
+					tag = SGH
+					tag = SON
+					tag = TFK
+					tag = TKR
+					tag = TMK
+					tag = ZGH
+				}
+			}
+			every_pop = { 
+				add_pop_size = {
+					value = pop_size
+					multiply = 6.0
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {	
+					tag = ETH
+					tag = ENN
+					tag = DAM
+					tag = HDY
+					tag = DAW
+					tag = BLE
+					tag = DBE
+					tag = MED
+					tag = JRN
+					tag = QTA
+					tag = DHK
+					tag = AFA
+					tag = IFA
+					tag = HRL
+					tag = WAR
+					tag = TDE
+					tag = AJU
+					tag = MDI
+					tag = ZAN
+				}
+			}
+			every_pop = { 
+				add_pop_size = {
+					value = pop_size
+					multiply = 3.5
+				}
+			}
+		}
+	}	
+}
+
